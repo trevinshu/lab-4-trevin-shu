@@ -1,0 +1,41 @@
+/* Here we can add anything we want to suit our project. */
+
+.jumbotron {
+  padding: 30px;
+}
+
+.container {
+  padding-top: 100px; /* A quick hack to stop stuff from disappearing below fixed navbar: Change this if it's not suitable for your project. */
+}
+textarea {
+  height: 140px;
+}
+form {
+  max-width: 400px; /* A quick hack to stop forms from being waaaayyy tooo wide. Remove if you don't like. */
+}
+
+label[for="first_name"]::before,
+label[for="last_name"]::before,
+label[for="age"]::before,
+label[for="occupation"]::before {
+  content: "* ";
+  color: red;
+}
+
+.listbox {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.home-img {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
